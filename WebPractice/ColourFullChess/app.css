@@ -1,0 +1,9 @@
+/* WRITE YOUR CODE IN HERE!!!!  */
+
+#board {
+    background: black;
+}
+
+#board :nth-of-type(2n) {
+    background: red;
+}
