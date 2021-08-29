@@ -29,6 +29,10 @@ nav a {
     padding: 0 1.5rem;
 }
 
+nav a:hover {
+    color: #fff;
+}
+
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,8 +89,6 @@ button:hover {
 
 @media screen and (max-width:768px) {
     .hero-container {
-        grid-template-columns:
+        grid-template-columns: 1fr;
     }
 }
-
-;
