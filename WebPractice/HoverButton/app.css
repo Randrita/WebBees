@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(0, 18, 66);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+}
+
+button {
+    padding: 1em 2em;
+    font-size: 1rem;
+    color: aliceblue;
+    border: 0.3rem solid white;
+}
+
+button:hover {
+    font-size: 1rem;
+    color: yellow;
+    border: 0.3rem solid yellow;
+    box-shadow: 12px 10px 2px 1px rgba(200, 255, 0, 0.836);
+    transform: translateY(-0.5em);
+}
