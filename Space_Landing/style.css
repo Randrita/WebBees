@@ -1,5 +1,6 @@
 * {
     background: linear-gradient(135.9deg, rgba(211, 40, 252, 1) 0%, rgba(38, 1, 111, 0.855) 84.34%, rgba(36, 0, 109, 0.851) 100%);
+    transition: all .3s ease-out;
 }
 
 .heading {
@@ -63,4 +64,40 @@ img {
     margin-top: 110px;
     background: none;
     transition-timing-function: ease-in;
+}
+
+.nav-item {
+    background: none;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 18rem;
+    background-size: 250rem 18rem;
+    background: url(cloud.png) repeat-x;
+    animation: cloud 10s linear infinite;
+}
+
+@keyframes cloud {
+    0% {
+        background-position-x: 0rem;
+    }
+    100% {
+        background-position-x: -250rem;
+    }
+}
+
+.cloud-1 {
+    opacity: .5;
+    height: 20rem;
+    background-size: 250rem 20rem;
+    animation-direction: reverse;
+    animation-duration: 15s;
+}
+
+.a {
+    background: none;
 }
